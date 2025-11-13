@@ -17,5 +17,5 @@ Thumbs.db
 *.log
 *.tmp
 
-# BPF pinned maps (не коммитить!)
+# BPF pinned maps
 /sys/fs/bpf/
