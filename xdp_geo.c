@@ -39,7 +39,6 @@ static __always_inline int check_geo(__u32 src_ip) {
     return geo_cfg->default_action ? XDP_DROP : XDP_PASS;
 }
 
-
 SEC("xdp")
 int xdp_geo_filter(struct xdp_md *ctx) {
 
