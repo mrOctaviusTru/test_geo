@@ -1,0 +1,21 @@
+# C/eBPF
+*.o
+*.ko
+*.elf
+xdp_geo
+
+# Go
+bin/
+geo-loader
+*.exe
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# BPF pinned maps (не коммитить!)
+/sys/fs/bpf/
